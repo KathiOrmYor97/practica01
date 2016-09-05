@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bienvenido</title>
+    <link rel="stylesheet" href="styles/main.css" type="text/css"/>
+</head>
+<body>
+    <h1>INICIO DE SESION</h1>
+    
+    <p>Introduce tu nombre y contraseña para ingresar</p>
+    
+    <form class="login" action="login2" method="post">   
+        
+        <input type="hidden" name="action" value="add">  
+        
+        <div><label class="pad_top">Usuario:</label></div>     
+        <div><input type="text" name="user" required><br></div>      
+        <div><label class="pad_top">Contraseña:</label></div> 
+        <div><input type="password" name="pass" required></div>  
+        <label>&nbsp;</label>        
+        <div><input type="submit" value="INICIAR SESION" class="margin_left"></div>       
+    </form> 
+</body>
+</html>
